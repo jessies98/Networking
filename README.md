@@ -59,23 +59,26 @@ Here is the configuration for Router 2. The G0/0/0 interface is divided into sub
 Now it's time to configure the switches. Switch 1 will host VLAN 10 on ports F0/1–F0/11 and VLAN 20 on ports F0/12–F0/24. The Gigabit ports will be configured as trunk ports to allow VLAN traffic to pass between switches and routers.
 Switch 2 will be configured similarly, but it will host VLAN 30 on ports F0/1–F0/11 and VLAN 40 on ports F0/12–F0/24.
   <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture11.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture12.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
 Router 2 will be configured to provide DHCP services, allowing each connected computer to automatically receive an IP address based on its assigned VLAN. <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture13.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture14.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture15.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 A static IP address of 192.168.32.130 is assigned to the server. Below is a ping test to the default gateway to verify network connectivity  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture16.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Static routing is implemented on Routers 1 through 3 to enable communication between all internal networks and ensure proper routing toward the ISP.   <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture17.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 RIPv2 is configured on Router 1 to enable dynamic routing and establish communication with the ISP router.  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture18.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 A ping test was performed from both the PC and the server to verify network connectivity to the ISP router. Successful responses confirm that the internal devices can reach external networks through the configured routing setup.  <br/>
