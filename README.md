@@ -17,15 +17,15 @@ Routers and switches are configured to support the following:
 
 
 Starting off the project, we are provided an internet connection that simulates an ISP.  <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Next, we will set up the physical layout of the network equipment. A network rack will hold three routers, three switches, and one server, while a nearby workstation table will include four computers for end-user access and testing.  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture3.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Next we will add serial ports to all router before wiring the network <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Next, we will begin wiring the network. Starting with the routers, we will use serial cables to connect them, designating the S1/0/1 port as the clock rate interface.
@@ -39,18 +39,18 @@ Switch Connections:
 •	On Switches 1 and 2, one computer will be connected to port F0/1 and another to port F0/12.
 •	VLANs will be separated by port ranges: F0/1–F0/11 for one VLAN, and F0/12–F0/24 for the other.
   <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Now it's time to configure the routers and bring all interfaces online. Each router's serial interface S1/0/1 will be configured with a clock rate of 500,000.
 To allocate IP addresses efficiently across VLANs, we are implementing Variable Length Subnet Masking (VLSM). Specifically, we will use a /27 subnet mask for each VLAN, which provides up to 30 usable host addresses per subnet—ideal for the number of users in each department.
   <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Here is the configuration for Router 2. The G0/0/0 interface is divided into sub-interfaces G0/0/0.10 through G0/0/0.40, with each sub-interface serving as the default gateway for VLANs 10 through 40, respectively. This is followed by the IP interface brief output for Routers 1 through 3.
  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Now it's time to configure the switches. Switch 1 will host VLAN 10 on ports F0/1–F0/11 and VLAN 20 on ports F0/12–F0/24. The Gigabit ports will be configured as trunk ports to allow VLAN traffic to pass between switches and routers.
