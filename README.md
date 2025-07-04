@@ -17,7 +17,7 @@ Routers and switches are configured to support the following:
 
 
 Starting off the project, we are provided an internet connection that simulates an ISP.  <br/>
-<img src="https://github.com/jessies98/Networking/blob/main/Picture1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Next, we will set up the physical layout of the network equipment. A network rack will hold three routers, three switches, and one server, while a nearby workstation table will include four computers for end-user access and testing.  <br/>
@@ -51,6 +51,9 @@ To allocate IP addresses efficiently across VLANs, we are implementing Variable 
 Here is the configuration for Router 2. The G0/0/0 interface is divided into sub-interfaces G0/0/0.10 through G0/0/0.40, with each sub-interface serving as the default gateway for VLANs 10 through 40, respectively. This is followed by the IP interface brief output for Routers 1 through 3.
  <br/>
 <img src="https://github.com/jessies98/Networking/blob/main/Picture7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture10.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Now it's time to configure the switches. Switch 1 will host VLAN 10 on ports F0/1–F0/11 and VLAN 20 on ports F0/12–F0/24. The Gigabit ports will be configured as trunk ports to allow VLAN traffic to pass between switches and routers.
