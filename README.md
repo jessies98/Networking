@@ -3,7 +3,7 @@
 
 <h2>Description</h2>
 This project was completed as part of my college networking course. It is designed to simulate a branch office setup within a larger corporate infrastructure. The network aims to provide segmented, secure, and scalable connectivity for multiple departments or workgroups.
-The implementation of VLANs separates different types of users—such as HR, IT, and Administration—ensuring both optimal performance and enhanced security. The branch office connects to a main headquarters or cloud services through a simulated WAN connection (via Router R4), enabling access to remote resources and internet-based applications. Additionally, internal servers are hosted locally to provide essential services such as file sharing, internal web applications, and authentication.
+The implementation of VLANs separates different types of users—such as HR, IT, and Administration—ensuring both optimal performance and enhanced security. The branch office connects to a main headquarters or cloud services through a simulated WAN connection (via ISP Router), enabling access to remote resources and internet-based applications. Additionally, internal servers are hosted locally to provide essential services such as file sharing, internal web applications, and authentication.
 
 Routers and switches are configured to support the following:
 - Inter-VLAN routing
