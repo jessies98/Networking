@@ -10,6 +10,7 @@ Routers and switches are configured to support the following:
 - Local LAN segmentation
 - Connectivity to the upstream internet or corporate backbone
 
+ <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 <h2>Project walk-through:</h2>
