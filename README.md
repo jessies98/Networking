@@ -82,7 +82,8 @@ RIPv2 is configured on Router 1 to enable dynamic routing and establish communic
 <br />
 <br />
 A ping test was performed from both the PC and the server to verify network connectivity to the ISP router. Successful responses confirm that the internal devices can reach external networks through the configured routing setup.  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture19.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="20.	https://github.com/jessies98/Networking/blob/main/Picture20.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
 Enter the number of passes: <br/>
