@@ -14,7 +14,7 @@ Routers and switches are configured to support the following:
 
 <h2>Project walk-through:</h2>
 
-<p align="center">
+
 Starting off the project, we are provided an internet connection that simulates an ISP.  <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
