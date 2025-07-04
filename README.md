@@ -29,15 +29,16 @@ Next we will add serial ports to all router before wiring the network <br/>
 <br />
 <br />
 Next, we will begin wiring the network. Starting with the routers, we will use serial cables to connect them, designating the S1/0/1 port as the clock rate interface.
-•	Router 1 will be connected to Router 2 and Router 3 via serial ports. It will also connect to the ISP through its Gigabit Ethernet port.
-•	Router 2 will connect to Router 1 and Router 3 using serial ports. Additionally, it will be connected to Switch 1 through its Gigabit port.
-•	Router 3 will connect to Router 1 and Router 2 via serial ports and will also be connected to Switch 3, which has a server connected to it.
+-	Router 1 will be connected to Router 2 and Router 3 via serial ports. It will also connect to the ISP through its Gigabit Ethernet port.
+- Router 2 will connect to Router 1 and Router 3 using serial ports. Additionally, it will be connected to Switch 1 through its Gigabit port.
+- Router 3 will connect to Router 1 and Router 2 via serial ports and will also be connected to Switch 3, which has a server connected to it.
+  
 Switch Connections:
-•	Switch 1 and Switch 2 will be connected and configured with a trunk link.
-•	Switch 1 will be configured with VLANs 10 and 20, while Switch 2 will be configured with VLANs 30 and 40.
-•	Each computer will be assigned to its respective VLAN.
-•	On Switches 1 and 2, one computer will be connected to port F0/1 and another to port F0/12.
-•	VLANs will be separated by port ranges: F0/1–F0/11 for one VLAN, and F0/12–F0/24 for the other.
+- Switch 1 and Switch 2 will be connected and configured with a trunk link.
+- Switch 1 will be configured with VLANs 10 and 20, while Switch 2 will be configured with VLANs 30 and 40.
+-	Each computer will be assigned to its respective VLAN.
+-	On Switches 1 and 2, one computer will be connected to port F0/1 and another to port F0/12.
+-	VLANs will be separated by port ranges: F0/1–F0/11 for one VLAN, and F0/12–F0/24 for the other.
   <br/>
 <img src="https://github.com/jessies98/Networking/blob/main/Picture5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
